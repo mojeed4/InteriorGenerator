@@ -19,7 +19,7 @@ orientations = [1, 2, 3, 4]
 #This class holds a complete puzzle with its solution.
 class puzzle_grid:
 
-    def __init__(self, title, puzzle, words, solution):
+    def __init__(self, title, puzzle, solution, words):
         self.title = title
         self.puzzle = puzzle
         self.words = words
