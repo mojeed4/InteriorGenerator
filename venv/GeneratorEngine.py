@@ -48,6 +48,9 @@ class puzzle_grid:
     def get_puzzle(self):
         return self.puzzle
 
+    def get_title(self):
+        return self.title
+
     def get_solution(self):
         return self.solution
 
