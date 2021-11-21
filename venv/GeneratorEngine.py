@@ -64,7 +64,8 @@ def generate_wordsearch_puzzle(size, word_list):
     while len(words) < 5:
         new_word = random.choice(word_list)
         if new_word not in words:
-            words.append(new_word)
+            if new_word != '':
+                words.append(new_word)
 
     grid_size = size
     grid = [['_' for i in range(grid_size)] for j in range(grid_size)]
